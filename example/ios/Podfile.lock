@@ -1,0 +1,22 @@
+PODS:
+  - audio_tag_plugin (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - audio_tag_plugin (from `.symlinks/plugins/audio_tag_plugin/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  audio_tag_plugin:
+    :path: ".symlinks/plugins/audio_tag_plugin/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  audio_tag_plugin: abcbec0022b8d430ad800d700584fc4c9f31c1cb
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+
+PODFILE CHECKSUM: 4305caec6b40dde0ae97be1573c53de1882a07e5
+
+COCOAPODS: 1.16.2
