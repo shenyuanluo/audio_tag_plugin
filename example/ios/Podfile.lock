@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  audio_tag_plugin: 45ea54a3335219f0bd96fe9517281f594ca43976
+  audio_tag_plugin: efa225c8d595cca606f3ea3003bd12d23e18e3c0
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
 
 PODFILE CHECKSUM: 4305caec6b40dde0ae97be1573c53de1882a07e5
