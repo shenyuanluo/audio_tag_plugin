@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.10)
 project(audio_tag_plugin_library VERSION 0.0.1 LANGUAGES C)
 
 add_library(audio_tag_plugin SHARED
-  "audio_tag_plugin.c"
+  "audio_tag_plugin.cpp"
 )
 
 set_target_properties(audio_tag_plugin PROPERTIES

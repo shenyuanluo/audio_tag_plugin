@@ -6,12 +6,28 @@ import 'dart:isolate';
 
 import 'audio_tag_plugin_bindings_generated.dart';
 
+class MyClassWrapper {
+  late final Pointer<Void> _instance;
+
+  MyClassWrapper() {
+    _instance = _bindings.my_class_create();
+  }
+
+  int add(int a, int b) {
+    return _bindings.my_class_add(_instance, a, b);
+  }
+
+  void dispose() {
+    _bindings.my_class_destroy(_instance);
+  }
+}
+
 /// A very short-lived native function.
 ///
 /// For very short-lived functions, it is fine to call them on the main isolate.
 /// They will block the Dart execution while running the native function, so
 /// only do this for native functions which are guaranteed to be short-lived.
-int sum(int a, int b) => _bindings.sum(a, b);
+int sum(int a, int b) => _bindings.sum_hh(a, b);
 
 /// A longer lived native function, which occupies the thread calling it.
 ///

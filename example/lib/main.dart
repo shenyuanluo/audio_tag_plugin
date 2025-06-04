@@ -4,6 +4,9 @@ import 'dart:async';
 import 'package:audio_tag_plugin/audio_tag_plugin.dart' as audio_tag_plugin;
 
 void main() {
+  final myClass = audio_tag_plugin.MyClassWrapper();
+  final result = myClass.add(5, 6);
+  print("result from MyClassWrapper: $result");
   runApp(const MyApp());
 }
 
